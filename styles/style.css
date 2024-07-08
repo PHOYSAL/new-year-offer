@@ -127,7 +127,7 @@ body {
   background-image: url("../images/y-24.png");
   background-repeat: no-repeat;
   background-position: center;
-  
+
 }
 
 
@@ -160,4 +160,125 @@ body {
   text-transform: uppercase;
   margin-top: 30px;
   margin-left: 80px;
+}
+
+/* deadline section start here  */
+.deadline-container {
+  width: 1320px;
+  height: 482px;
+  /* border: 2px solid green; */
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  /* margin-bottom: 120px; */
+}
+
+.deadline-content {
+  color: rgb(7, 2, 17);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.deadline-content-color {
+  color: rgb(255, 0, 0);
+}
+
+.deadline-container button {
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  border: none;
+  margin-top: 48px;
+
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* best offer styles start here  */
+.best-offer-content {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.best-offer-title h4 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  /* text-align: center; */
+}
+
+.best-offer-title h1 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.best-offer-title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.best-offer-content img {
+  border-radius: 2px solid red;
+  /* padding: 100px; */
+}
+
+.best-offer-text h1 {
+  color: rgb(255, 0, 0);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.best-offer-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.best-offer-text img {
+  margin-top: 60px;
+}
+
+.best-offer-pic img {
+  /* box-sizing: border-box; */
+  border: 15px solid rgb(255, 0, 0);
+  padding: 30px;
+  background: url(friends-enjoying-rooftop-party);
+  border-radius: 50%;
 }
