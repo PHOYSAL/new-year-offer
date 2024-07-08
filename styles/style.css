@@ -282,3 +282,45 @@ body {
   background: url(friends-enjoying-rooftop-party);
   border-radius: 50%;
 }
+/* holiday sale section star here  */
+.holiday-sale-container {
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 65px;
+}
+
+.holiday-sale-title h4 {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.holiday-sale-title h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#holiday-color {
+  color: rgb(255, 0, 0);
+}
+
+.holiday-sale-title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
